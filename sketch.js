@@ -70,7 +70,7 @@ function draw() {
   textFont(font);
   textSize(20);
   textAlign(LEFT);
-  text('do stuff!', st * 2, st * 1.75);
+  text('make noise, click around', st * 2, st * 1.75);
   fill(stColor[0]);
   textFont(font);
   textSize(20);
