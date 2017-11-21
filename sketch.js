@@ -1,8 +1,7 @@
-var font, sound, cam, mic;
+var font, cam, mic;
 
 function preload() {
   font = loadFont('./assets/AvenirNextLTPro-Demi.otf');
-  sound = loadSound('./assets/pew.wav');
 }
 
 function setup() {
@@ -20,9 +19,6 @@ var i = 0;
 
 function mousePressed() {
   // fun with mouse
-  if (!sound.isPlaying()) {
-    sound.play();
-  }
   if (i === 0) {
     i = 1;
   } else {
@@ -70,7 +66,12 @@ function draw() {
 
 
   // fun with text
-  fill(cl[2]);
+  fill(stColor[1]);
+  textFont(font);
+  textSize(20);
+  textAlign(LEFT);
+  text('do stuff!', st * 2, st * 1.75);
+  fill(stColor[0]);
   textFont(font);
   textSize(20);
   textAlign(RIGHT);
