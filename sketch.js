@@ -70,10 +70,8 @@ function draw() {
   textFont(font);
   textSize(20);
   textAlign(LEFT);
-  text('make noise, click around', st * 2, st * 1.75);
+  text('move around, make noise', st * 2, st * 1.75);
   fill(stColor[0]);
-  textFont(font);
-  textSize(20);
   textAlign(RIGHT);
   text('i \u003C3 p5*js', width - st * 2, height - st * 1.25);
 
