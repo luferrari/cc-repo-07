@@ -106,8 +106,8 @@ function draw() {
 }
 
 // PALETTE
-// yellow orange    255, 188, 66
-// dark raspberry   143, 45, 86
-// razzmatazz       235, 40, 95
-// celadon green    33, 131, 128
-// middle blue      115, 210, 222
+// yellow orange      255, 188, 66
+// dark raspberry     143, 45, 86
+// razzmatazz         235, 40, 95
+// celadon green      33, 131, 128
+// middle blue        115, 210, 222
